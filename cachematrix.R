@@ -42,3 +42,4 @@
     TM$setinv(3) ## setting the inverse to 5
     cacheSolve(TM)## should return 5, as I set it to 5 in the above line
     ## Bingo It does !!
+    # The code works fine :) 
