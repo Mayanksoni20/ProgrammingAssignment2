@@ -39,7 +39,7 @@
     TM=makeCacheMatrix(matrix(c(1,0,0,1),2,2)) ##TM=Test matrix to check the code.
     cacheSolve(TM) ## calculating the inverse
     TM$getinv() ## Checking if the inverse calculated above is in the cache
-    TM$setinv(3) ## setting the inverse to 5
+    TM$setinv(5) ## setting the inverse to 5
     cacheSolve(TM)## should return 5, as I set it to 5 in the above line
     ## Bingo It does !!
     # The code works fine :) 
